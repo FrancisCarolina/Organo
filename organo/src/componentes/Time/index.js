@@ -11,7 +11,11 @@ const Time = (props) => {
         <h3 style={{ borderColor: props.corPrimaria }}>{props.nome}</h3>
         <div className="colaboradores">
           {props.colaboradores.map((colaborador) => (
-            <Colaborador colaborador={colaborador} />
+            <Colaborador
+              key={colaborador.nome}
+              colaborador={colaborador}
+              corPrimaria={props.corPrimaria}
+            />
           ))}
         </div>
       </section>
