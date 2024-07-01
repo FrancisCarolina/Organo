@@ -1,3 +1,3 @@
 # Acessar projeto funcionando:
 
-[text](https://organo-francislovo.vercel.app/)
+[Organo](https://organo-francislovo.vercel.app/)
